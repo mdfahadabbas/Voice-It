@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style>
+body{
+background-color:#CCCCCC;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:top;
+} 
+.container
+{
+ position:absolute;
+top:135px;
+left:485px;
+width:290px;
+height:390px;
+padding:3px;  
+border: 1px ridge;
+border-radius:18px;
+margin: 0;
+background-color:#F6F6F6;
+}  
+input[type=text]
+{
+position:absolute;
+right:3%;
+border-radius:8px;
+padding-right:21px;
+}
+input[type=text]:hover
+{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ 
+input[type=password]
+{
+position:absolute;
+right:3%;
+border-radius:9px;
+padding-right:21px;
+clear:both;
+}
+input[type=password]:hover
+{
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div:hover
+{
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h2
+{text-shadow:grey;
+font-family:Georgia, "Times New Roman", Times, serif;
+text-decoration:underline;
+color:#BC0197;
+}
+a
+{
+color:#990099;
+cursor:pointer;
+}
+a:hover
+{
+color:#CC0066;} 
+input[type=submit]{
+border-radius:12px;
+padding:10px 24px;
+cursor:pointer;
+border:#666666;
+color:#990099;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+input[type=submit]:hover{
+background-color:#CC00CC;
+color:black;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+label
+{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:oblique;
+color:#666666;
+}
+hr {
+    border: 2px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.bus{
+width:90px;
+height:90px;
+border-radius:48%;
+position:absolute;
+right:35%;
+top:-55px;
+}
+h4
+{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:45px;
+font-style:italic;
+text-shadow:#FF0000;
+position:absolute;
+top:30px;
+left:70px;
+}
+p
+{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:45px;
+font-style:italic;
+text-shadow:#FF0000;
+position:absolute;
+top:60px;
+left:80px;
+
+}
+</style>
+</head>
+
+<body>
+<div class="container" data-aos="zoom-in">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp9RTXsKiP5RXM2RRvDmNk5FYm7ULpqNZ7" class="bus">
+  <br><h2><i>Login</i></h2><hr>
+     <form method="post" action="login.php" autocomplete="off">
+         <label>UserId </label>
+	       <input type="text" name="name" id="name" placeholder="***Enter UserId***" required ><br><br><br>
+	     <label>Password</label>
+		     <input type="password" id="psw" name="psw" placeholder="***Enter Password***" required><br><br />
+			 <a href="" style="position:absolute; right:5%;">Forget password</a><br><br>
+			 <center>
+          <input type="submit" align="absmiddle" value="Submit" name="submit" >
+		  </center>
+  </form><br>
+	  <a href="reg.html">Create a New Account</a>
+</div>
+</body>
+</html>
